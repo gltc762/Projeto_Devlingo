@@ -68,7 +68,7 @@ a{
 	text-align: center;
 	padding-left: 91px;
 	padding-right: 91px;
-	width: 512px;
+	width: 30vw;
 }
 
 .titulo{
@@ -164,7 +164,7 @@ a{
 
 .col2{
 	width: 100vw;
-	background-color: white;
+	background-color: #022840;
 }
 
 .bg2{
@@ -200,33 +200,31 @@ a{
 .cabecalho{
 	display: flex;
 	background-color: #022840;
-	justify-content: space-between;
-	align-items: center;
-	height: 100px;
+	height: 50px;
+    padding: 1rem 2rem;
+    align-items: center;
+    justify-content: space-between;
 }
-/* 
-.menu{
-	justify-content: space-between;
-} */
 
 .link-menu{
 	color: #D7F9FF;
 	text-decoration: none;
 	font-family: "Comfortaa";
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	margin-right: 50px;
 }
 
 .texto-link{
-	margin-right: -500px;
+	display: flex;
+    align-items: center;
 }
 
 .campo-pesquisa{
 	border: 2px solid #2EF2AA;
 	border-radius: 90px;
-	width: 350px;
-	height: 50px;
+	width: 300px;
+	height: 40px;
 	background-color: transparent;
 	color: #D7F9FF;
 }
@@ -236,73 +234,13 @@ input::placeholder{
 	font-family: "Comfortaa";
 	font-size: 16px;
 	font-weight: normal;
+    
 }
 
 .patinho{
-	margin-right: 75px;
+	margin-right: 50px;
 }
 
 .pesquisa{
-	margin-left: 75px;
+	margin-left: 50px;
 }
-
-/* .cabecalho {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #f5f5f5;
-}
-
-.pesquisa {
-    flex: 1 1 200px;
-    max-width: 300px;
-}
-
-.campo-pesquisa {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1rem;
-}
-
-.menu .texto-link {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.link-menu {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-.pato-pateta {
-    flex: 0 0 auto;
-    margin-left: 1rem;
-}
-
-.patinho {
-    height: 8vh;
-    max-height: 65px;
-    width: auto;
-}
-
-@media (max-width: 600px) {
-    .cabecalho {
-        flex-direction: column;
-        align-items: stretch;
-        text-align: center;
-    }
-
-    .menu .texto-link {
-        justify-content: center;
-    }
-
-    .pato-pateta {
-        margin-top: 1rem;
-    }
-} */
