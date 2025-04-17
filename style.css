@@ -194,7 +194,7 @@ a{
 	font-family: "Comfortaa";
 	font-size: 36px;
 	font-weight: normal;
-	color: #D7F9FF;
+	color: #ffffff;
 }
 
 .cabecalho{
@@ -207,7 +207,7 @@ a{
 }
 
 .link-menu{
-	color: #D7F9FF;
+	color: #ffffff;
 	text-decoration: none;
 	font-family: "Comfortaa";
 	font-size: 16px;
@@ -226,7 +226,7 @@ a{
 	width: 300px;
 	height: 40px;
 	background-color: transparent;
-	color: #D7F9FF;
+	color: #ffffff;
 }
 
 input::placeholder{
