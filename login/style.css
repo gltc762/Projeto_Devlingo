@@ -42,21 +42,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* 
+
 body{
-	background-image: url(imagens/bg1.png);
+	background-image: url("imagens/bg1.png");
 	background-size: cover;
-} */
+}
 
 .content{
 	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row-reverse;
-	background-color: #022840;
+	overflow: hidden;
 }
 
 a{
@@ -66,9 +64,20 @@ a{
 .col1{
 	font-family: "Comfortaa";
 	text-align: center;
+<<<<<<< Updated upstream:login/style.css
 	padding-left: 91px;
 	padding-right: 91px;
 	width: 512px;
+=======
+	width: 25vw;
+	background-color: #022840;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: 1px solid #022840;
+	border-radius: 15px;
+>>>>>>> Stashed changes:style.css
 }
 
 .titulo{
@@ -162,9 +171,13 @@ a{
 	display: block;
 }
 
-.col2{
+/* .col2{
 	width: 100vw;
+<<<<<<< Updated upstream:login/style.css
 	background-color: white;
+=======
+	
+>>>>>>> Stashed changes:style.css
 }
 
 .bg2{
@@ -177,7 +190,7 @@ a{
 
 .bg3{
 	width: 100%;
-}
+} */
 
 .conteudo{
 	
