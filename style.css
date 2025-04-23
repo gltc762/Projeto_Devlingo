@@ -42,21 +42,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* 
+
 body{
 	background-image: url(imagens/bg1.png);
 	background-size: cover;
-} */
+} 
 
 .content{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100vw;
-	overflow: hidden;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row-reverse;
-	background-color: #022840;
 }
 
 a{
@@ -69,7 +67,13 @@ a{
 	padding-left: 91px;
 	padding-right: 91px;
 	width: 30vw;
+	min-height: 100vh;
+    background: #022840;
+	display: flex;
+	align-items: center;
 }
+
+
 
 .titulo{
 	margin-top: 25px;
