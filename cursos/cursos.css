@@ -86,3 +86,68 @@ nav a:hover::after {
 nav a:hover {
   color: #2EF2AA;
 }
+
+.content{
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo{
+  font-family: "Comfortaa";
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+}
+
+.pt1{
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  justify-content: center;
+}
+
+.bloco1{
+  font-family: "Comfortaa";
+  color: #9CD33B;
+}
+
+.bloco2{
+  color: #7B71FF;
+  font-family: "Comfortaa";
+}
+
+.bloco3{
+  color: #2EF2AA;
+  font-family: "Comfortaa";
+}
+
+.bloco4{
+  color: #E76F51;
+  font-family: "Comfortaa";
+}
+
+.bloco5{
+  color: #2BDEFD;
+  font-family: "Comfortaa";
+}
+
+.bloco6{
+  color: #FFBA05;
+  font-family: "Comfortaa";
+}
+
+.subtitulo1{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subtitulo2{
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.subtitulo3{
+  font-weight: bold;
+  font-size: 16px;
+}
