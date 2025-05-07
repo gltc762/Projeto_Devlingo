@@ -106,34 +106,64 @@ nav a:hover {
   justify-content: center;
 }
 
+.blocos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
 .bloco1{
   font-family: "Comfortaa";
   color: #9CD33B;
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
 }
 
 .bloco2{
   color: #7B71FF;
   font-family: "Comfortaa";
+  width: 350px;
+  height: 250px;
+  margin-left: 95px;
 }
 
 .bloco3{
   color: #2EF2AA;
   font-family: "Comfortaa";
+  width: 350px;
+  height: 250px;
+  margin-right: 100px;
+  margin-left: 95px;
 }
 
 .bloco4{
   color: #E76F51;
   font-family: "Comfortaa";
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
 .bloco5{
   color: #2BDEFD;
   font-family: "Comfortaa";
+  width: 350px;
+  height: 250px;
+  margin-left: 95px;
+  margin-top: 100px;
 }
 
 .bloco6{
   color: #FFBA05;
   font-family: "Comfortaa";
+  width: 350px;
+  height: 250px;
+  margin-right: 100px;
+  margin-left: 95px;
+  margin-top: 100px;
 }
 
 .subtitulo1{
