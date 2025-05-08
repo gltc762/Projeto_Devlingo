@@ -102,16 +102,24 @@ nav a:hover {
 .pt1{
   display: flex;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 25px;
   justify-content: center;
 }
 
-.blocos{
+.blocos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 25px;
+}
+
+/* .blocos{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 75px;
-}
+  margin-top: 50px;
+} */
 
 .bloco1{
   font-family: "Comfortaa";
@@ -119,6 +127,8 @@ nav a:hover {
   width: 350px;
   height: 250px;
   margin-left: 100px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
 }
 
 .bloco2{
@@ -127,6 +137,8 @@ nav a:hover {
   width: 350px;
   height: 250px;
   margin-left: 95px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
 }
 
 .bloco3{
@@ -136,6 +148,8 @@ nav a:hover {
   height: 250px;
   margin-right: 100px;
   margin-left: 95px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
 }
 
 .bloco4{
@@ -145,6 +159,8 @@ nav a:hover {
   height: 250px;
   margin-left: 100px;
   margin-top: 100px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
 }
 
 .bloco5{
@@ -154,6 +170,9 @@ nav a:hover {
   height: 250px;
   margin-left: 95px;
   margin-top: 100px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .bloco6{
@@ -164,20 +183,62 @@ nav a:hover {
   margin-right: 100px;
   margin-left: 95px;
   margin-top: 100px;
+  border: 2px solid #D7F9FF;
+  border-radius: 10px;
 }
 
 .subtitulo1{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 20px;
+  text-align: start;
+  margin-left: 25px;
+  margin-top: 25px;
 }
 
 .subtitulo2{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
   color: white;
+  text-align: start;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 25px;
 }
 
 .subtitulo3{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 16px;
+  text-align: start;
+  margin-left: 25px;
+  margin-bottom: 0px;
+}
+
+.certificado{
+  padding-left: 130px;
+  padding-bottom: 10px;
+}
+
+.rodape{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+.rodape2{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rodape3{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.rodape4{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
 }
