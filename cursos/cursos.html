@@ -11,82 +11,83 @@
 
 <body>
   <header>
-    <input type="text" class="barra-pesquisa" placeholder="O Que gostaria de aprender?">
+    <label for="pesquisa" class="visually-hidden">Pesquisar cursos</label>
+    <input id="pesquisa" type="text" class="barra-pesquisa" placeholder="O que gostaria de aprender?">
     <nav>
       <a href="#">CURSOS</a>
       <a href="#">PERFIL</a>
-      <img src="https://i.imgur.com/W8yZNOX.png" alt="AVATAR"
-        style="width: 40px; height: 40px; border-radius: 50%; margin-left: 1rem; margin-right: 25px; font-weight: bold; font-size: 16px;">
+      <img src="https://i.imgur.com/W8yZNOX.png" alt="Avatar do usuário" class="avatar">
     </nav>
   </header>
+
   <main class="content">
-    <div class="pt1">
+    <section class="pt1">
       <img class="pc" src="images/pc.png" alt="computador" height="60">
       <h1 class="titulo">Tecnologia da Informação</h1>
-    </div>
-    <div class="blocos">
-      <div class="bloco1">
+    </section>
+
+    <section class="blocos">
+      <div class="bloco bloco-verde">
         <h3 class="subtitulo1">Banco de Dados</h3>
-        <h4 class="subtitulo2">Neste curso, você aprenderá os conceitos fundamentais sobre
-          o armazenamento, organização de dados
-          em um banco de dados.</h4>
-          <div class="rodape">
-            <h4 class="subtitulo3">Nível</h4>
-            <h4 class="subtitulo3">Iniciante</h4>
-            <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
-          </div>
-      </div>
-      <div class="bloco2">
-        <h3 class="subtitulo1">C#</h3>
-        <h4 class="subtitulo2">Neste curso, você vai aprender as funções essenciais do C#, uma das linguagens mais
-          utilizadas em softwares, jogos e aplicativos.</h4>
-          <div class="rodape2">
-            <h4 class="subtitulo3">Nível</h4>
-            <h4 class="subtitulo3">Iniciante</h4>
-            <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
-          </div>
-      </div>
-      <div class="bloco3">
-        <h3 class="subtitulo1">PHP</h3>
-        <h4 class="subtitulo2">Neste curso, você vai aprender os fundamentos do PHP, uma linguagem de programação
-          utilizada para o desenvolvimento de sites e aplicações web dinâmicas.</h4>
-          <div class="rodape4">
-            <h4 class="subtitulo3">Nível</h4>
-            <h4 class="subtitulo3">Iniciante</h4>
-            <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
-          </div>
-      </div>
-      <div class="bloco4">
-        <h3 class="subtitulo1">HTML</h3>
-        <h4 class="subtitulo2">Neste curso, você vai aprender os conceitos fundamentais para criar páginas web simples e
-          funcionais.</h4>
-          <div class="rodape">
-            <h4 class="subtitulo3">Nível</h4>
-            <h4 class="subtitulo3">Iniciante</h4>
-            <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
-          </div>
-      </div>
-      <div class="bloco5">
-        <h3 class="subtitulo1">CSS</h3>
-        <h4 class="subtitulo2">Neste curso, você vai aprender os fundamentos essenciais do CSS, a linguagem de estilos
-          que dá vida e personalidade às páginas web.</h4>
-          <div class="rodape2">
-            <h4 class="subtitulo3">Nível</h4>
-            <h4 class="subtitulo3">Iniciante</h4>
-            <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
-          </div>
-      </div>
-      <div class="bloco6">
-        <h3 class="subtitulo1">JavaScript</h3>
-        <h4 class="subtitulo2">Neste curso, você vai aprender as funções essenciais do JavaScript, uma das linguagens de
-          programação mais populares e indispensáveis no desenvolvimento web moderno.</h4>
-        <div class="rodape4">
+        <p class="subtitulo2">Neste curso, você aprenderá os conceitos fundamentais sobre o armazenamento, organização
+          de dados em um banco de dados.</p>
+        <div class="rodape">
           <h4 class="subtitulo3">Nível</h4>
           <h4 class="subtitulo3">Iniciante</h4>
-          <img class="certificado" src="images/certificado.png" alt="certificado" height="60">
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
         </div>
       </div>
-    </div>
+      <div class="bloco bloco-roxo">
+        <h3 class="subtitulo1">C#</h3>
+        <p class="subtitulo2">Neste curso, você vai aprender as funções essenciais do C#, uma das linguagens mais
+          utilizadas em softwares, jogos e aplicativos.</p>
+        <div class="rodape">
+          <h4 class="subtitulo3">Nível</h4>
+          <h4 class="subtitulo3">Iniciante</h4>
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
+        </div>
+      </div>
+      <div class="bloco bloco-verde-claro">
+        <h3 class="subtitulo1">PHP</h3>
+        <p class="subtitulo2">Neste curso, você vai aprender os fundamentos do PHP, uma linguagem de programação
+          utilizada para o desenvolvimento de sites e aplicações web dinâmicas.</p>
+        <div class="rodape">
+          <h4 class="subtitulo3">Nível</h4>
+          <h4 class="subtitulo3">Iniciante</h4>
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
+        </div>
+      </div>
+      <div class="bloco bloco-laranja">
+        <h3 class="subtitulo1">HTML</h3>
+        <p class="subtitulo2">Neste curso, você vai aprender os conceitos fundamentais para criar páginas web simples e
+          funcionais.</p>
+        <div class="rodape">
+          <h4 class="subtitulo3">Nível</h4>
+          <h4 class="subtitulo3">Iniciante</h4>
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
+        </div>
+      </div>
+      <div class="bloco bloco-azul">
+        <h3 class="subtitulo1">CSS</h3>
+        <p class="subtitulo2">Neste curso, você vai aprender os fundamentos essenciais do CSS, a linguagem de estilos
+          que dá vida e personalidade às páginas web.</p>
+        <div class="rodape">
+          <h4 class="subtitulo3">Nível</h4>
+          <h4 class="subtitulo3">Iniciante</h4>
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
+        </div>
+      </div>
+      <div class="bloco bloco-amarelo">
+        <h3 class="subtitulo1">JavaScript</h3>
+        <p class="subtitulo2">Neste curso, você vai aprender as funções essenciais do JavaScript, uma das linguagens de
+          programação mais populares no desenvolvimento web.</p>
+        <div class="rodape">
+          <h4 class="subtitulo3">Nível</h4>
+          <h4 class="subtitulo3">Iniciante</h4>
+          <img class="certificado" src="images/certificado.png" alt="Certificado" height="60">
+        </div>
+      </div>
+    </section>
   </main>
   <script src="app.js"></script>
 </body>
